@@ -1,0 +1,14 @@
+.user-img{
+    border-radius: 50vmax;
+}
+.user-name{
+    font-weight: bold;
+    color: #696969;
+}
+.user-post{
+    color: #696969;
+}
+.admin-heading{
+    font-weight: bold;
+    font-size: 1.6vmax;
+}
