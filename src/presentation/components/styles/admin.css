@@ -1,14 +1,86 @@
 .user-img{
-    border-radius: 50vmax;
+    border-radius: 20vmax;
+    margin-right: 1cqmax !important;
 }
 .user-name{
+    font-size: 1cqmax;
     font-weight: bold;
     color: #696969;
+    font-family: "Nunito Sans", sans-serif;
 }
 .user-post{
     color: #696969;
+    font-size: 1cqmax;
+    font-family: "Nunito Sans", sans-serif;
+}
+.segemented{
+    margin-right: 2cqmax;
+}
+#summary{
+    font-size: 1.3cqmax;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
 }
 .admin-heading{
     font-weight: bold;
-    font-size: 1.6vmax;
+    font-size: 2cqmax;
+    font-family: "Nunito Sans", sans-serif;
 }
+.dashboard-main-layout{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2vmax;
+}
+
+.ant-segmented-item {
+    padding: .3vmax 1.3vmax !important;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+.ant-segmented-item-selected {
+    color: #f25b5b !important;
+}
+
+.chart-legend-text{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2vmax;
+}
+
+.ant-table-cell {
+    white-space: nowrap;
+  }
+  
+  .ant-table-cell-ellipsis {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .ant-table-cell {
+      white-space: normal;
+    }
+    .user-name{
+        font-size: .9cqmax;
+    }
+    .user-post{
+        font-size: .8cqmax;
+    }
+    .user-img{
+        width: 5cqmax !important;
+    }
+    .ant-segmented-item {
+        padding: .2vmax 1vmax !important;
+        font-size: 1.2cqmax !important;
+    }
+  }
+  @media (max-width: 450px) {
+    .segemented{
+        margin-right: 1cqmax;
+        margin-top: 2cqmax;
+    }
+    .ant-segmented-item {
+        padding: .1vmax .5vmax !important;
+        font-size: 10px !important;
+    }
+  }

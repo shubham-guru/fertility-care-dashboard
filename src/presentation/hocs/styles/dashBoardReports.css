@@ -1,0 +1,14 @@
+.dashboard-report-col{
+    border: .8px solid #e0e0e0;
+    margin-top: 2vmax;
+    padding: 1vmax;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.dashboard-report-heading{
+    font-size: 1.2vmax;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: #474255;
+    margin-left: 1vmax;
+}

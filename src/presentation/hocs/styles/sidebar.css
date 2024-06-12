@@ -4,12 +4,12 @@
     padding: 2vmax 0vmax 2vmax 2vmax;
 }
 #menus-text{
-    margin: 1vmax;
+    margin: 1cqmax;
     color: #898989;
     letter-spacing: 1px;
     font-weight: 200;
+    font-size: 1.1cqmax;
 }
-
 .sidebar-menu-col {
     padding: 8px 16px;
     cursor: pointer;
@@ -50,13 +50,13 @@
         padding: 4px 8px;
     }
 
-    #menu-text {
-        font-size: 14px;
+    #menus-text {
+        font-size: 2cqmax;
     }
 }
 
 @media (max-width: 480px) {
-    #menu-text {
+    #menus-text {
         font-size: 12px;
     }
 

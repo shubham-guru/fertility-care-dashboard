@@ -2,3 +2,14 @@
     background-color: #F0F1F3;
     padding: 3vmax;
 }
+#side-bar-icon{
+    position: absolute;
+    left: 100%;
+    bottom: 90%;
+    font-size: 25px !important;
+}
+#side-bar-icon2{
+    position: absolute;
+    bottom: 92%;
+    font-size: 25px !important;
+}

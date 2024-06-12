@@ -1,0 +1,15 @@
+.semen-collection-text{
+    color: #F56C6C !important;
+    font-size: 1cqmax !important;
+    font-family: "Nunito Sans", sans-serif;
+}
+.semen-value-text{
+    margin: .5cqmax 0 !important;
+    font-size: 1.5cqmax !important;
+}
+.vt-line{
+    border-left: 1px solid #dfdede;
+    height: 15cqmax;
+    position: relative;
+    left: 18%;
+}

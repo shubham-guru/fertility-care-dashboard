@@ -8,12 +8,13 @@ import "./styles/sidebar.css"
 const { Text } = Typography;
 
 type ISideBar = {
-    selectedMenu: (id: number) => void
+    selectedMenu: (id: number) => void;
 }
 
 const Sidebar: React.FC<ISideBar> = ({ selectedMenu }) => {
 
     const [selected, setSelected] = useState<number>(0);
+
 
     const handleMenuClick = (index: number) => {
         setSelected(index);
@@ -22,6 +23,7 @@ const Sidebar: React.FC<ISideBar> = ({ selectedMenu }) => {
 
     return (
         <Row className="sidebar-row">
+            
             <Image preview={false} src={logo} />
             {
                 SideBarMenus.map((menus, index: number) => {
@@ -39,6 +41,7 @@ const Sidebar: React.FC<ISideBar> = ({ selectedMenu }) => {
                     )
                 })
             }
+            
         </Row>
     );
 }

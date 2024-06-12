@@ -1,0 +1,44 @@
+.dashBoard-chip-flexbox{
+    border: .8px solid #e0e0e0;
+    padding: 2vmax;
+    border-radius: 12px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.dashBoard-chip-flexbox:hover{
+    box-shadow: 2px 2px 10px #ddd;
+}
+#chip-icon-div{
+    background-color: #FFDAD3;
+    padding: 1cqmax;
+    border-radius: 100px;
+    margin-right: 1cqmax;
+    width: 50;
+}
+#chip-title{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: .9cqmax;
+}
+#chip-value{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2cqmax;
+}
+
+@media (max-width: 450px) {
+    #chip-title{
+        font-size: 1.4cqmax;
+    }
+    #chip-value{
+        font-size: 1.8cqmax;
+    }
+}
+@media (max-width: 320px) {
+    #chip-title{
+        font-size: 1cqmax;
+    }
+    #chip-value{
+        font-size: 1.5cqmax;
+    }
+}
